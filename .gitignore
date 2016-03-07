@@ -1,2 +1,10 @@
 node_modules
 *.log
+.idea
+/.idea
+BAK/*
+BAK
+node_modules/
+.DS_Store
+.sass-cache
+js/.DS_Store

@@ -19,7 +19,8 @@
   "homepage": "https://github.com/andrewngu/path-server#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "root-path": "^0.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",

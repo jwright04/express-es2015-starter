@@ -5,5 +5,5 @@ export default config => {
     app.use(bodyParser.json())
     app.use(bodyParser.urlencoded({ extended: true }))
     app.use(router)
-    app.set('port', process.env.PORT || 5000)
+    app.set('port', process.env.PORT || 8000)
 }

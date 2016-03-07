@@ -1,9 +1,10 @@
-import { Router } from 'express'
+import { Router } from 'express';
+import rootPath from 'root-path';
 
-const router = Router()
+const router = Router();
 
-router.get('/', (req, res) => {
-    res.send('Hello World!!')
+router.get('*', (req, res) => {
+    res.sendFile(rootPath() + '/public/index.html');
 })
 
-export default router
+export default router;
